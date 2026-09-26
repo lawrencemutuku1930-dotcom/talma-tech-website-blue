@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B4EA2"/>
+      <stop offset="100%" stop-color="#061A38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Square -->
+  <rect width="200" height="200" rx="44" fill="url(#grad2)"/>
+
+  <!-- Inner Glow -->
+  <rect x="35" y="25" width="130" height="150" rx="18" fill="#EAF5FF" fill-opacity="0.15"/>
+
+  <!-- T Letter -->
+  <path d="M55 32H145V58H110V165H80V58H55V32Z" fill="url(#grad1)" stroke="#FFE680" stroke-width="1.5"/>
+
+  <!-- Small Circuit Accents -->
+  <g stroke="#78C3FF" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="25" y1="25" x2="15" y2="25"/>
+    <line x1="175" y1="25" x2="185" y2="25"/>
+    <line x1="25" y1="175" x2="15" y2="175"/>
+    <line x1="175" y1="175" x2="185" y2="175"/>
+  </g>
+
+  <!-- Corner Dots -->
+  <circle cx="15" cy="25" r="6" fill="#78C3FF"/>
+  <circle cx="185" cy="25" r="6" fill="#78C3FF"/>
+</svg>

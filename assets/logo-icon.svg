@@ -1,0 +1,44 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B4EA2"/>
+      <stop offset="100%" stop-color="#061A38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="195" fill="url(#grad2)"/>
+  <circle cx="200" cy="200" r="185" fill="url(#grad2)"/>
+
+  <!-- Inner Glow -->
+  <circle cx="200" cy="200" r="140" fill="#EAF5FF" fill-opacity="0.12"/>
+
+  <!-- Main T Letter -->
+  <path d="M160 110H240V150H205V290H165V150H160V110Z" fill="url(#grad1)" stroke="#FFE680" stroke-width="3" opacity="0.95"/>
+
+  <!-- Circuit Corner Lines -->
+  <g stroke="#78C3FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <!-- Top Left -->
+    <line x1="100" y1="80" x2="80" y2="80"/>
+    <line x1="80" y1="80" x2="80" y2="120"/>
+    <!-- Top Right -->
+    <line x1="300" y1="80" x2="320" y2="80"/>
+    <line x1="320" y1="80" x2="320" y2="120"/>
+    <!-- Bottom Left -->
+    <line x1="100" y1="320" x2="80" y2="320"/>
+    <line x1="80" y1="320" x2="80" y2="280"/>
+    <!-- Bottom Right -->
+    <line x1="300" y1="320" x2="320" y2="320"/>
+    <line x1="320" y1="320" x2="320" y2="280"/>
+  </g>
+
+  <!-- Connection Points -->
+  <circle cx="80" cy="80" r="12" fill="#78C3FF"/>
+  <circle cx="320" cy="80" r="12" fill="#78C3FF"/>
+  <circle cx="80" cy="320" r="12" fill="#78C3FF"/>
+  <circle cx="320" cy="320" r="12" fill="#78C3FF"/>
+</svg>
